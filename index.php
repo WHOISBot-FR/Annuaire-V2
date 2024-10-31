@@ -58,8 +58,9 @@ try {
                 <button class="greeting-button">👋 Bienvenue, <?php echo htmlspecialchars($prenom . ' ' . $nom); ?></button>
                 <p></p>
                 <div class="dropdown-content">
+                    <a href="profile.php">👤 Gestion du profil</a>
                     <form action='logout.php' method='post' class="logout-form">
-                        <button type='submit' class="logout-button">Déconnexion</button>
+                        <button type='submit' class="logout-button">❌ Déconnexion</button>
                     </form>
                 </div>
             </div>
