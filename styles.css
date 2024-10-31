@@ -201,3 +201,39 @@ form .btn:hover {
     object-fit: cover;
 }
 
+form.add_collaborateur {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+.profile-info {
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.status-message.success {
+    color: #4CAF50;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.status-message.error {
+    color: #ff4d4d;
+    font-size: 16px;
+    margin-top: 10px;
+}
